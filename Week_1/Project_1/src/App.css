@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: #f5f7fa;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.workshops-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Workshop {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.Workshop h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.Workshop p {
+  margin: 8px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.workshop-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.workshop-button:hover {
+  background-color: #357abd;
+}
+
+/* Morning workshops (9 AM - 1 PM) - Light blue/yellow theme */
+.morning {
+  background: linear-gradient(135deg, #fff9c4 0%, #e8f4fd 100%);
+  border-left: 4px solid #ffd700;
+}
+
+/* Afternoon workshops (1 PM - 6 PM) - Orange/warm theme */
+.afternoon {
+  background: linear-gradient(135deg, #ffe0b3 0%, #ffcc99 100%);
+  border-left: 4px solid #ff8c00;
+}
+
+/* Evening workshops (6 PM+) - Purple/dark theme */
+.evening {
+  background: linear-gradient(135deg, #e8d5ff 0%, #d1c4e9 100%);
+  border-left: 4px solid #9c27b0;
+}
