@@ -40,8 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[![Video Walkthrough](Week_1/Project_1/kapture-demo.gif)](Week_1/Project_1/kapture-demo.gif)
-
+[![Video Walkthrough](https://raw.githubusercontent.com/Enrique182004/WEB102/main/Week_1/Project_1/Kapture%202025-09-23%20at%2020.05.51-min.gif)](https://raw.githubusercontent.com/Enrique182004/WEB102/main/Week_1/Project_1/Kapture%202025-09-23%20at%2020.05.51-min.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 [Kap](https://getkap.co/) for macOS
