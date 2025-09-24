@@ -40,12 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<a href="Week_1/Project_1/Kapture 2025-09-23 at 20.05.51-min.gif" target="_blank">
-  <img src="Week_1/Project_1/Kapture 2025-09-23 at 20.05.51-min.gif" 
-       title="Video Walkthrough" 
-       width="" 
-       alt="Video Walkthrough" />
-</a>
+[![Video Walkthrough](Week_1/Project_1/kapture-demo.gif)](Week_1/Project_1/kapture-demo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
