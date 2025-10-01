@@ -47,7 +47,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
+<img src='https://raw.githubusercontent.com/Enrique182004/WEB102/main/Week_2/Project_2/Kapture%202025-09-30%20at%2023.46.25-min.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 [![Video Walkthrough](https://raw.githubusercontent.com/Enrique182004/WEB102/main/Week_2/Project_2/Kapture%202025-09-30%20at%2023.46.25-min.gif)](https://raw.githubusercontent.com/Enrique182004/WEB102/main/Week_2/Project_2/Kapture%202025-09-30%20at%2023.46.25-min.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
