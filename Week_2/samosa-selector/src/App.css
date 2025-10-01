@@ -1,0 +1,132 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.samosa {
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.1s ease;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.samosa:hover {
+  transform: scale(1.05);
+}
+
+.samosa:active {
+  transform: scale(0.95);
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upgrade {
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  padding: 20px 10px;
+  width: 200px;
+  line-height: 0.5;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.upgrade:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.upgrade h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
+.upgrade p {
+  font-size: 0.9em;
+  opacity: 0.8;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+button:hover:not(:disabled) {
+  background-color: #535bf2;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(100, 108, 255, 0.4);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #444;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upgrade {
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  .samosa {
+    height: 12em;
+  }
+}
